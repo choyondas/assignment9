@@ -1,0 +1,22 @@
+.home{
+    background-image: url('../../images/school-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    padding-top: 50px;
+    
+}
+.catagory{
+    text-align: center;
+    color: rgb(102, 102, 245);
+}
+.cart{
+    padding: 10px;
+    margin: 30px;
+    height: 400px;
+    box-shadow: 2px 2px 30px gray;
+}
+.catagory{
+    width: 75%;
+    margin: auto;
+}

@@ -1,0 +1,190 @@
+const schoolServices = [
+    {
+        id: 1,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 5,
+
+        title: "Principles of Written English, Part 1",
+        place: "HAMILTON, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "We stand behind the belief that students will perform better if classrooms are led by enthusiastic, inspired and well-trained teachers. To ensure students are receiving a high-quality education, we provide public primary school teachers with training and innovative resources, enhancing the delivery of national curriculum and empowering them to lead dynamic and effective lessons.",
+        img: 'https://st2.depositphotos.com/3591429/5246/i/950/depositphotos_52462701-stock-photo-people-and-english-concept.jpg'
+
+    },
+    {
+        id: 2,
+        COURSETYPE: "General",
+        DURATION: "1 - 12 weeks",
+        ClassPerWeek: 5,
+        AGERANGE: "12 - 65 ",
+        rating: 4,
+        title: "Teaching English Grammer, Basic",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "May 3, 2021",
+        price: 48,
+        body: "A critical component to a successful educational experience is the facilitation of learning in a welcoming and encouraging environment. Pencils of Promise integrates Social and Emotional Learning (SEL) into the core of our Teacher Support program, as our ethos is centered around encouraging learning environments where primary students can thrive and be set up with skills to succeed.",
+        img: 'https://st.depositphotos.com/1177973/3818/i/950/depositphotos_38186743-stock-photo-young-teacher-near-chalkboard-in.jpg'
+
+    },
+    {
+        id: 3,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 30,
+        rating: 5,
+        AGERANGE: "16 - 50 ",
+        title: "Speak with Confidence",
+        school: "Metropolitan College",
+        place: "VANCOUVER, CANADA",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "We stand behind the belief that students will perform better if classrooms are led by enthusiastic, inspired and well-trained teachers. To ensure students are receiving a high-quality education, we provide public primary school teachers with training and innovative resources, enhancing the delivery of national curriculum and empowering them to lead dynamic and effective lessons.",
+        img: 'https://st.depositphotos.com/1643295/3743/i/950/depositphotos_37438567-stock-photo-english-vocabulary.jpg'
+
+    },
+    {
+        id: 4,
+        COURSETYPE: "General",
+        DURATION: "1 - 39 weeks",
+        ClassPerWeek: 20,
+        rating: 4.5,
+        AGERANGE: "16 - 65 ",
+        title: "Free Spoken English Lessons, Part 1",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "This option will give you an opportunity to review and practice all aspects of language learning, covering all four skills (reading, writing, speaking and listening), grammar and vocabulary. The approach is very communicative and the classes are designed to be dynamic and engaging.",
+        img: 'https://st.depositphotos.com/2171279/3833/i/950/depositphotos_38336257-stock-photo-foreign-language-concept-learning-speaking.jpg'
+
+    },
+    {
+        id: 5,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 4.5,
+        title: "Learn English Speaking and Improve your Spoken English",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "Course Overview includes: • 20 lessons per week (4 lessons per day) • Duration: 20 x 50 minutes • 15 students max. per class • Elementary to Advanced levels • Course length: 1–50 weeks • Age 16+ If you want to combine your language studies with other actives, the General 20 Course is the ideal program for you.",
+        img: 'https://st.depositphotos.com/2309453/2670/i/950/depositphotos_26708529-stock-photo-learning-students.jpg'
+
+    },
+    {
+        id: 6,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 4,
+        title: "English Certificate Crse",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "Course Overview includes: • 30 lessons per week (6 lessons per day) • Duration: 30 x 50 minutes (25 hours per week) • 15 students max. per class • Beginner to Advanced levels • Course length: 1–50 weeks • Age 16+ The LSI Intensive 30 Course is for students who want to maximize their language learning practice during their stay.",
+        img: 'https://st.depositphotos.com/1592314/3122/i/950/depositphotos_31228463-stock-photo-woman-holding-tablet-pc.jpg'
+
+    },
+    {
+        id: 7,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        rating: 4,
+        AGERANGE: "12 - 65 ",
+        title: "ESL Private Lessons",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "We stand behind the belief that students will perform better if classrooms are led by enthusiastic, inspired and well-trained teachers. To ensure students are receiving a high-quality education, we provide public primary school teachers with training and innovative resources, enhancing the delivery of national curriculum and empowering them to lead dynamic and effective lessons.",
+        img: 'https://static8.depositphotos.com/1594308/1071/i/950/depositphotos_10718986-stock-photo-explaining-rules.jpg'
+
+    },
+    {
+        id: 8,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 4,
+        title: "General English - Power",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "The LSI Intensive 30 Course is for students who want to maximize their language learning practice during their stay. The Intensive 30 Course concentrates on all the areas that students need to achieve a much greater fluency in a short period of time.",
+        img: 'https://st4.depositphotos.com/2171279/24563/i/1600/depositphotos_245635110-stock-photo-portrait-of-female-english-teacher.jpg'
+
+    },
+    {
+        id: 9,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 4,
+        title: "Part time English, Part 1",
+        place: "TORONTO, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "Course Overview includes: • 20 lessons per week (4 lessons per day) • Duration: 20 x 50 minutes • 15 students max. per class • Beginner to Advanced levels • Course length: 1–50 weeks • Age 16+ During the lessons you rapidly improve your communication skills in a variety of everyday situations.",
+        img: 'https://st3.depositphotos.com/9880800/16371/i/1600/depositphotos_163714688-stock-photo-teacher-talking-to-schoolgirl.jpg'
+
+    },
+    {
+        id: 10,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        rating: 5,
+        AGERANGE: "12 - 65 ",
+        title: "Super Intensive English",
+        place: "VANCOUVER, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "Enjoy private tutoring sessions with a qualified instructor privately. Tailor made lessons for each student.",
+        img: 'https://st.depositphotos.com/1064045/1271/i/950/depositphotos_12716252-stock-photo-learning-english.jpg'
+
+    },
+    {
+        id: 11,
+        COURSETYPE: "General",
+        DURATION: "1 - 52 weeks",
+        ClassPerWeek: 25,
+        AGERANGE: "12 - 65 ",
+        rating: 4,
+        title: "Principles of Written English, Part 2",
+        place: "MONTREAL, CANADA",
+        school: "Metropolitan College",
+        course: "Language",
+        stdate: "February 10, 2021",
+        price: 98,
+        body: "Our Intensive English (ESL) program is designed for students to learn English quickly and enjoyably while offering the best value possible for your money. This program focuses on improving your English communication skills.",
+        img: 'https://static5.depositphotos.com/1037778/469/i/950/depositphotos_4692508-stock-photo-group-of-students-in-classroom.jpg'
+
+    }
+]
