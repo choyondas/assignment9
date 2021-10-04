@@ -6,7 +6,7 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Link
+
 } from "react-router-dom";
 import Footer from './components/Footer/Footer';
 import Home from './components/Home/Home';
@@ -14,6 +14,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Service from './components/Service/Service';
 import NotFound from './components/NotFound/NotFound';
+import Details from './components/Details/Details';
 function App() {
   return (
     <div  >
@@ -35,6 +36,9 @@ function App() {
           </Route>
           <Route path="/service" >
             <Service></Service>
+          </Route>
+          <Route path="/details" >
+            <Details></Details>
           </Route>
           <Route path="*" >
             <NotFound></NotFound>

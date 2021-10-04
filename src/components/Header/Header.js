@@ -9,8 +9,9 @@ const Header = () => {
             </div>
             <div className="header-right">
 
-                <NavLink className="m-4 fw-bold text-decoration-none text-white " to="/about"><h4>About</h4></NavLink>
+
                 <NavLink className="m-4 fw-bold text-decoration-none text-white " to="/home"><h4>Home</h4></NavLink>
+                <NavLink className="m-4 fw-bold text-decoration-none text-white " to="/about"><h4>About</h4></NavLink>
                 <NavLink className="m-4 fw-bold text-decoration-none text-white " to="/service"><h4>Service</h4></NavLink>
                 <NavLink className="m-4 fw-bold text-decoration-none text-white " to="/contact"><h4>Contact</h4></NavLink>
 

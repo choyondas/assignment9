@@ -1,9 +1,11 @@
 import React from 'react';
+import Details from '../Details/Details';
 import "./Service.css"
-const Service = () => {
+const Service = (props) => {
+
     return (
         <div>
-            <h2>hello form service</h2>
+            <Details></Details>
         </div>
     );
 };
