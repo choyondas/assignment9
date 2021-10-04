@@ -49,10 +49,20 @@ gap: 30px;
 }
 .review div:hover{
     border-radius: 10px;
-    box-shadow:3px 3px 20px teal;
+    box-shadow:3px 3px 20px white;
 }
 .feedback{
-    background-color:#0B2733 ;
+    background-color:#1d87b4 ;
     color: white;
     
 }
+.review-title{
+    margin-left: 180px;
+    padding-top: 30px;
+    font-weight: bold;
+}
+.meet-team{
+    font-weight: bold;
+    color:#09212b ;
+}
+

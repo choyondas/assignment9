@@ -4,6 +4,7 @@ import "./Footer.css"
 const Footer = () => {
     return (
         <div className="footer">
+            <img className="happy" src="https://icon-library.com/images/learn-icon-png/learn-icon-png-28.jpg" alt="" />
             <h1 >Happy Learning</h1>
 
             <div className="navigation">
@@ -15,10 +16,10 @@ const Footer = () => {
             </div>
             <h3>Quick Links</h3>
             <div className="quick-recap">
-                <NavLink to=""><p>Service Plus and plans</p></NavLink>
-                <NavLink to=""><p>Our features and careers</p></NavLink>
-                <NavLink to=""><p>Privacy policy and terms of use</p></NavLink>
-                <NavLink to=""><p>Courses and pilot requirements</p></NavLink>
+                <NavLink className="quick-link" to=""><p>Service Plus and plans</p></NavLink>
+                <NavLink className="quick-link" to=""><p>Our features and careers</p></NavLink>
+                <NavLink className="quick-link" to=""><p>Privacy policy and terms of use</p></NavLink>
+                <NavLink className="quick-link" to=""><p>Courses and pilot requirements</p></NavLink>
             </div>
             <p>Choyon © 2021. All Rights Reserved..</p>
         </div>

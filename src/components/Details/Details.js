@@ -1,5 +1,6 @@
 import Button from '@restart/ui/esm/Button';
 import React, { useEffect, useState } from 'react';
+import { Link } from 'react-router-dom';
 import "./Details.css"
 
 const Details = () => {
@@ -20,9 +21,9 @@ const Details = () => {
                         <div className="cart">
                             <h3>{detail.title}</h3>
                             <h4>institute: {detail.school}</h4>
-                            <img className="w-50" src={detail.img} alt="" />
+                            <img className="w-75" src={detail.img} alt="" />
                             <p>price:${detail.price}</p>
-                            <button className="buy"> Buy now</button>
+                            <Link to="/buy"><button className="buy"> Buy now</button></Link>
 
                         </div>
                     </div>

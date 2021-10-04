@@ -15,6 +15,7 @@ import Contact from './components/Contact/Contact';
 import Service from './components/Service/Service';
 import NotFound from './components/NotFound/NotFound';
 import Details from './components/Details/Details';
+import Buy from './components/Buy/Buy';
 function App() {
   return (
     <div  >
@@ -39,6 +40,9 @@ function App() {
           </Route>
           <Route path="/details" >
             <Details></Details>
+          </Route>
+          <Route path="/buy" >
+            <Buy></Buy>
           </Route>
           <Route path="*" >
             <NotFound></NotFound>

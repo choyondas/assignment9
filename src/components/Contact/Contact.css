@@ -1,0 +1,52 @@
+.contact{
+    height: 400px;
+    background-color:#2cc0ff ;
+    display: flex;
+    justify-content: space-around;   
+    padding-top: 30px; 
+    align-items: center;
+}
+.contact-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.detail-con{
+    margin-left: 30px;
+}
+.get-in-touch{
+    padding-top: 30px;
+    text-align: center;
+}
+.heading-touch{
+    color:#09212b;
+    font-weight: bold;
+}
+.input{
+    width: 200px;
+    margin: 20px;
+    height: 40px;
+    border-radius: 15px;
+    border: 1px solid gray;
+    padding: 10px;
+    font-weight: bold;
+}
+textarea{
+    border-radius: 20px;
+    padding: 20px;
+}
+.submit-txt{
+    border-radius: 10px;
+    border: none;
+    color: #20404e;
+    font-weight: bold;
+    background-color: rgb(11, 208, 243);
+}
+.submit-txt:hover{
+    background-color: rgb(99, 127, 248);
+    color: white;
+}
+.info-touch{
+    color: #193541;
+    font-weight: bold;
+}

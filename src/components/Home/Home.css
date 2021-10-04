@@ -76,3 +76,14 @@
     font-weight: bold;
     padding: 30px;
 }
+.buy-now{
+    border: 1px solid blue;
+    border-radius: 6px;
+    color: blue;
+    background-color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+.text-news{
+    text-decoration: none;
+    color: white;
+}

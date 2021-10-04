@@ -38,7 +38,7 @@ const About = () => {
                 </div>
             </div>
             <div className="team">
-                <h2>Meet our team</h2>
+                <h2 className="meet-team">Meet our team</h2>
                 <div className="cart-info">
 
                     <div className="cart">
@@ -77,7 +77,7 @@ const About = () => {
             </div>
 
             <section className="feedback">
-                <h1>Reviews</h1>
+                <h1 className="review-title">Reviews</h1>
                 <div className="review">
                     <div className='customer'>
                         <h4>
