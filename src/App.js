@@ -19,7 +19,7 @@ import Buy from './components/Buy/Buy';
 function App() {
   return (
     <div  >
-
+      {/* Router */}
       <Router>
         <Header></Header>
         <Switch>
